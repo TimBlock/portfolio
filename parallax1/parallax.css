@@ -2,7 +2,7 @@
   --------------------------------------------- */
 
   .parallax {
-    height: ; /* fallback for older browsers */
+    height: 500px; /* fallback for older browsers */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -63,8 +63,8 @@
     font-family: 'Lato', sans-serif;
   }
 
-  html {
-    font-size: 62.5% ;
+  body {
+    font: 100% ;
 
   }
 
@@ -74,7 +74,7 @@
   }
 
   .parallax {
-    font-size: 2rem;
+    font-size: 200%;
   }
 
    /* centre the content in the parallax layers */
@@ -123,7 +123,7 @@
     margin: 0 auto;
     padding: 0;}
   }
-  img{margin: 0 auto; width: 30%;}
+  img{margin: 0 auto; width: 100%;}
 figure{width: 100%;}
 
   /* style the groups
@@ -179,3 +179,5 @@ figure{width: 100%;}
     
   }
 
+
+  

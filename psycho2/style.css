@@ -6,11 +6,10 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Lato', sans-serif;
 ---------------------------------------*/
 *{padding: 0; margin: 0;}
-html{font-size: 62.5%;}
 body{
 	font-family: 'Lato', sans-serif;
 	color:#333;
-	font-size: 1.9rem;
+	font-size: 19px;
 	width: 100%;
 	background: url(assets/pioro.png);
 }
@@ -25,9 +24,9 @@ header{
 	font-family: 'Poiret One', cursive;
 	font-size: 2em;
 	width: 90%;
-	margin: 0 auto;
+	margin: 20px auto;
 	color:#909090;
-	padding-top: 2rem;
+	padding-top: 20px;
 }
 aside{
 	position: fixed;
@@ -40,7 +39,7 @@ nav{
 }
 .menu-tail{
 	width:3.125em;
-	padding: 1rem;
+	padding: 10px;
 	border-radius: 2px;
 	color: #A80000;
 	border: 2px solid #A80000;
@@ -53,12 +52,12 @@ a{text-decoration: none;}
 	}
 .menu-wall{
 	position:absolute;
-	padding: 1rem;
+	padding: 10px;
 	background-color: #909090;
-	margin-top: 0.5rem;
+	margin-top: 5px;
 	clear:both;
 	margin-left:5%;
-	opacity: 0.9;
+	opacity: .9;
 	border-radius: 5px;
 	z-index: 10;
 	color: black;
@@ -69,27 +68,27 @@ a{text-decoration: none;}
 article{
 	margin-right: 20%;
 	margin-left: 20%;
-	margin-top: 2rem;
+	margin-top: 20px;
 	text-align: justify;
 	line-height: 2em;
 }
-h3{margin-top: 10rem;}
+h3{margin-top: 100px;}
 footer{
 	background-color: #101010;
 	color: #404040;
 	position: relative;
 	text-align: left;
 	vertical-align: middle;
-	height: 3rem;
-	padding: 1rem;
+	height: 30px;
+	padding: 10px;
 	text-align: left;
 }
 
 /*-----------slider-index.html--------------------------*/
 
 .container-sld {
-  margin: 5rem auto;
-  width: 50rem;
+  margin: 50px auto;
+  width: 500px;
   height: 300px;
   border: 5px solid #101010;
   position: relative;
@@ -133,24 +132,24 @@ img:nth-child(4) {
 	margin: 0 auto;
 	width: 100%;
 	background-color: #101010;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 form{width:50%; margin:0 auto;}
 label{padding: 10px; color: #404040; text-transform: uppercase;}
 #nickname, #content{
 	width: 100%; 
-	height: 3rem; 
+	height: 30px; 
 	background-color: #303030;
 	margin: 0 auto;
 	border: 2px solid black;
 }
-#content{height: 15rem;}
+#content{height: 150px;}
 #submit{
 	text-transform: uppercase;
 	color: #909090;
-	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	padding: 5px 15px 5px 15px;
 	background-color: #A80000;
 	border: 2px solid #B80000;
 }
@@ -159,23 +158,17 @@ label{padding: 10px; color: #404040; text-transform: uppercase;}
 
 /*------------------------------smartfony--------------------*/
 @media all and (min-width: 240px) and (max-width: 667px) {
-body{font-size: 1.6rem;}
+body{font-size: 16px;}
 header{width: 100%; height: auto;}
 aside{display: none;}
-#mobile-nav{
-	bottom: 0; 
-	left: 0; 
-	position: fixed; 
-	z-index: 100;
-	background: url(assets/pioro.png);
-}
+#mobile-nav{top: 85vh; left: 0; position: fixed; z-index: 100;}
 nav>ul>li{
 	float: left; 
 	list-style: none; 
 	text-align: center;
 	font-weight:bold;
 }
-.menu-tail{padding: 0.3rem;}
+.menu-tail{padding: 3px;}
 ul>li:first-child{width: 25%; }
 ul>li:first-child + li{width: 25%; }
 ul>li:first-child + li+li{width: 25%; }
@@ -183,28 +176,22 @@ ul>li:first-child + li+li+li{width: 25%; }
 .wrapper{width:90vw;}
 .container-sld{width: 88vw; height: 30vh;}
 .photo{width: 89wv;}
-article{width: 95%; margin:  1rem auto;}
+article{width: 95%; margin:  10px auto;}
 form{width:90%; }
 }
 /*---------------------------tablety---------------------*/
 @media all and (min-width: 668px) and (max-width: 1024px){
-body{font-size: 1.6rem;}
+body{font-size: 16px;}
 header{width: 100%; height: auto;}
 aside{display: none;}
-#mobile-nav{
-	bottom: 0; 
-	left: 0; 
-	position: fixed; 
-	z-index: 100;
-	background: url(assets/pioro.png);
-}
+#mobile-nav{top: 85vh; left: 0; position: fixed; z-index: 100;}
 nav>ul>li{
 	float: left; 
 	list-style: none; 
 	text-align: center;
 	font-weight:bold;
 }
-.menu-tail{padding: 0.3rem;}
+.menu-tail{padding: 3px;}
 ul>li:first-child{width: 25%; }
 ul>li:first-child + li{width: 25%; }
 ul>li:first-child + li+li{width: 25%; }
@@ -212,7 +199,7 @@ ul>li:first-child + li+li+li{width: 25%; }
 .wrapper{width:90vw;}
 .container-sld{width: 88vw; height: 40vh;}
 .photo{width: 89wv;}
-article{width: 95%; margin:  1rem auto;}
+article{width: 95%; margin:  10px auto;}
 form{width:90%; }
 }
 /*---------------------laptopy-------------------*/

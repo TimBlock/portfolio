@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8";>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		
-		
+		<link rel="stylesheet" type="text/css" href="assets/css/CSS3.css">
+		<link rel="stylesheet" media="mediatype and|not|only (media feature)" href="style.css">
 		<title>index</title>
 	</head>
 
@@ -17,45 +17,42 @@
 			<ul>
 				<li><a href="#home">TOP</a></li>
 				<li><a href="#skills">SKILLS</a></li>
-				<li><a href="#portfolio-all">WORK</a></li>
+				<li><a href="#portfolio_all">WORK</a></li>
 				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 		</header>
 
+		
+
 	<!-- home -->
 
-			<article id="home">
-				<div id="content" class="floatfix">
-					<div class="base1">
-						<img id="photo-tymek" src="assets/tymek.jpg">
-					</div>
-					<div class="base2">
-						<div id="name">
-							<h3>Cześć, nazywam się</h3>
-							<h1>Timothy Block</h1>
-						</div>
-						<div id="info">Jestem początkującym front-end developerem, a to jest stronka, która ma na celu ukazywać moje postępy w nauce kodowania.
-						</div>
-						<a href="#skills">
-							<div class="button">more info</div>
-						</a>
-					</div>
-					
+			<section id="home"><br><br>
+				<div class="base1">
+					<img id="tymek" src="assets/tymek.jpg">
 				</div>
-			</article>
+				<div class="base2">
+					<div id="name">
+						<h3>Cześć, nazywam się </h3><h1>Timothy Block</h1>
+					</div>
+					<div id="info">Jestem poczatkującym front-end developerem, a to jest stronka, która ma na celu ukazywać moje postępy w nauce kodowania
+					</div>
+					<a href="#skills"><div class="button">more info</div></a>
+				</div>
+				
+			</section>
 
 	<!--skills-->
 
-			<article id="skills"><br><br>
-				<div class="smallheader">Umiejętności, które zdobyłem / zdobywam.</div>
+			<section id="skills"><br><br>
+				<div class="smallheader">Umiejętności, które zdobyłem.</div>
 				<div class="row">
 					<div class="icon">
-						<img class="icon-img" src="assets/css3.png">
+						<img class="icon-img" src="assets/CSS3.png">
 					</div>
 					<div class="info">
 						<p>CSS - Kaskadowe arkusze stylów (ang. Cascading Style Sheets, w skrócie CSS) to język służący do opisu formy prezentacji (wyświetlania) stron WWW. </p>
 						<p>Od listopada 2015 uczę się CSS3. Wcześniej nigdy się z nim nie zetknąłem, ale okazało się, że jest dosyć łatwy i przyjemny. Strona, którą czytasz powstała m.in. dzięki CSS3.</p>
-					</div>
+					</div><br><br>
 				</div>
 
 					<div class="row">
@@ -65,89 +62,103 @@
 						<div class="info">
 							<p>HTML5 – język wykorzystywany do tworzenia i prezentowania stron internetowych www.</p><p>Podobnie jak CSS3 jest to jezyk, który poznaję od listopada 2015. Na początku wydawał mi się trochę nudny, ale przynajmniej jest prosty.</p> 
 						</div>
+							<br><br>
 					</div>
 					<div class="row">
 						<div class="icon">
 							<img class="icon-img" src="assets/js-logo.png">
 						</div>
-						<div class="info">Java Script to język, o którym jeszcze nic nie wiem, ale się go nauczę, a co!
+						<div class="info">Jav Script to język, o którym jeszcze nic nie wiem, ale się go nauczę, a co!
 						</div>
 					</div>
-			</article>
+			</section>
 
 
 	<!--portfolio-->
 
-			<article id="portfolio-all"><br>
+			<section id="portfolio_all"><br>
 				<div class="smallheader">Moje pierwsze projekty.
 				</div>
 					
+	<!--tablety,laptopy portfolio-->
+
 				<div id="portfolio" class="floatfix">
 					
 					<div class="container" class="floatfix">
-
-						<a href="psycho1/index.html" target="_blank">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto1.jpg" class="foto">
-									<figcaption class="text">slider i formularz - nauka  ver.01</figcaption>
-								</figure>
-								
-							</div>
-						</a>
-							
-						<a href="psycho2/index.html" target="_blank">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto2.jpg" class="foto">
-									<figcaption class="text">slider i formularz (RWD) ver.02</figcaption>
-								</figure>
-							</div>
-						</a>
-
-						<a href="parallax1/index.html" target="_blank">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto3.jpg" class="foto">
-									<figcaption class="text">parallax - nauka</figcaption>
-								</figure>
-							</div>
-						</a>
+						<a href="psycho1/index.html" target="_blank"><div class="webpage">
+							<div class="pic"><img src="assets/foto1.jpg" class="foto"></div>
+							<div class="text">slider i formularz ver.01</div></a>
+						</div>
+						<a href="psycho2/index.html" target="_blank"><div class="webpage">
+							<div class="pic"><img src="assets/foto2.jpg" class="foto"></div>
+							<div class="text">slider i formularz (RWD) ver.02 - poproawiona</div>
+						</div></a>
+						<a href="parallax1/index.html" target="_blank"><div class="webpage">
+							<div class="pic"><img src="assets/foto3.jpg" class="foto"></div>
+							<div class="text">parallax - strona naszej rodziny</div>
+						</div></a>
 						
 					</div>
 					<div class="container">
-
-						<a href="parallax2/index.html" target="_blank">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto4.jpg" class="foto">
-									<figcaption class="text"> RWD z parallaxem</figcaption>
-								</figure>
+						<a href="parallax2/index.html" target="_blank"><div class="webpage">
+							<div class="pic">
+							<img src="assets/foto4.jpg" class="foto">
 							</div>
-						</a>
-						<a href="#">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto0.jpg" class="foto">
-									<figcaption class="text">strona z javascript</figcaption>
-								</figure>
+							<div class="text">portfolio - responsywna strona z parallaxem
 							</div>
-						</a>
-						<a href="#">
-							<div class="webpage">
-								<figure class="pic">
-									<img src="assets/foto0.jpg" class="foto">
-									<figcaption class="text">strona z javascript</figcaption>
-								</figure>
+						</div></a>
+						<a href="#"><div class="webpage">
+							<div class="pic"
+							><img src="assets/foto0.jpg" class="foto">
 							</div>
-						</a>
-
+							<div class="text">strona z javascript</div>
+						</div></a>
+						<a href="#"><div class="webpage">
+							<div class="pic"><img src="assets/foto0.jpg" class="foto"></div>
+							<div class="text">stronka z javascript</div>
+						</div></a>
 					</div>
-
 				</div> 
 				
-			<article id="contact">
-				<div class="smallheader">Skontaktuj się ze mną.
+
+	<!--mobile protfolio-->
+
+				<div id="mobile_portfolio" class="floatfix">
+					<div class="container" >
+						<a href="psycho1/index.html" target="_blank">
+							<div class="webpage">
+								<div class="pic"><img src="assets/foto1.jpg" class="foto"></div>
+								<div class="text">slider i formularz ver.01</div>
+								</a>
+							</div>
+						<a href="psycho2/index.html" target="_blank">
+							<div class="webpage">
+								<div class="pic"><img src="assets/foto2.jpg" class="foto"></div>
+								<div class="text">slider i formularz (RWD) ver.02 - poproawiona</div>
+							</div>
+						</a>
+						<a href="parallax1/index.html" target="_blank">
+							<div class="webpage">
+								<div class="pic"><img src="assets/foto3.jpg" class="foto"></div>
+								<div class="text">parallax - strona naszej rodziny</div>
+							</div>
+						</a>
+						<a href="parallax2/index.html" target="_blank">
+							<div class="webpage">
+								<div class="pic"><img src="assets/foto4.jpg" class="foto">
+								</div>
+								<div class="text">portfolio - responsywna strona z parallaxem
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+	<!--contact form-->
+
+			<section id="contact">
+				<div class="smallheader">Jeżeli masz dla mnie jakąś wiadomość<br> wypełnij formularz poniżej.
 				</div>
 				<div id="formularz">
 					<form>
@@ -160,7 +171,7 @@
 						<input id="submit" name="submit" type="submit" value="Wyślij">
 					</form>
 				</div>
-			</article>
+			</section>
 
 			<footer style="text-align:center;">&copy 2015 Tymoteusz Klocek. All rights reserved.
 				<span>

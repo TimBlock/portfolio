@@ -41,12 +41,11 @@
   margin: 0;
   padding:0;
 }
-html{font-size: 62.5%;}
 body{
   /* font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Poiret One', cursive;
   background-color: #f2f2f2;
-  font-size: 1.9rem;
+  font-size: 19px;
   position: relative;
 }
 .title {
@@ -64,19 +63,17 @@ body{
 #container {
   margin-top: 95vh;
   width:100%;
-  height: 200rem;
+  height: 2000px;
 }
 header{
   width: 100%;
-  height: 6rem;
+  height: 60px;
   z-index: 1000;
   position: fixed;
-  background-color: #ECECEC;
-  opacity: 0.9;
 }
 #nav{
   font-size: 1.5em;
-  padding: 1rem;
+  padding: 10px;
   text-align: center;
 }
 ul>li{
@@ -101,7 +98,7 @@ ul>li>a{text-decoration: none; color: #303030; font-weight: bold;}
 }
 #info{
   width: 50%;
-  padding: 4rem;
+  padding: 40px;
   text-align: justify;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -114,7 +111,7 @@ ul>li>a{text-decoration: none; color: #303030; font-weight: bold;}
 }
 
 footer{
-  padding: 1rem;
+  padding: 10px;
   color: #f1f1f1;
   width: 100%;
   position: relative;
@@ -141,7 +138,7 @@ table{
 
 #stl1{
   box-sizing:border-box;
-  padding: 2rem;
+  padding: 20px;
   background-color: #FF99FF; 
   font-family: 'Lobster', cursive;
   } 
@@ -168,7 +165,7 @@ background-color: #FF66FF;
 
 #stl2{
   box-sizing:border-box;
-  padding: 2rem;
+  padding: 20px;
   background-color: #9966CC;
   font-family: 'Hind', sans-serif;
  } 
@@ -197,7 +194,7 @@ background-color: #660099;
   background-color: #ECECEC; 
   /*font-family: 'Titillium Web', sans-serif;*/
   box-sizing:border-box;
-  padding: 2rem;
+  padding: 20px;
 } 
 #td13{
 background-color: #E3E3E3;
@@ -224,11 +221,11 @@ background-color: #939393;
 /*media queries*/
 
 @media all and (min-width: 768px) and (max-width: 1024px ) {
-  body{font-size: 1.8rem; }
+  body{font-size: 18px; }
 }
 @media all and (min-width: 480px) and (max-width: 767px ) {
   body{
-    font-size: 1.7rem;
+    font-size: 17px;
     background-image: url(assets/01.jpg);
   }
  #fot2{display: none;} 
@@ -245,8 +242,8 @@ background-color: #939393;
 #info{
     width: 90%;
     font-size: 1.5em;
-    padding: 0.2rem;
-    margin-bottom: 1rem;
+    padding: 2px;
+    margin-bottom: 10px;
     margin: 0 auto;
     }
 ul>li:first-child{
@@ -261,7 +258,7 @@ ul>li:first-child + li + li{
 width: 30%;
 }
 footer{
-  font-size: 1.5rem;
+  font-size: 15px;
 
 }
 table{
@@ -278,11 +275,11 @@ table{
   width:100%;
   clear: both;
   margin-top: 60vh;
-  padding:0.5rem;
+  padding:5px;
 }
 #stl1{
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 10px;
+  padding: 10px;
 }
 
    
@@ -290,8 +287,8 @@ table{
 @media all and (min-width: 240px) and (max-width: 479px) {
   
 body{
-  font-size: 1.5rem;
-  background-image: url(assets/01.jpg);
+    font-size: 15px;
+    background-image: url(assets/01.jpg);
   }
  #fot2{display: none;} 
 .main_style{
@@ -307,8 +304,8 @@ body{
 #info{
     width: 90%;
     font-size: 1.2em;
-    padding: 0.2rem;
-    margin-bottom: 1rem;
+    padding: 2px;
+    margin-bottom: 10px;
     margin: 0 auto;
     }
 ul>li:first-child{
@@ -323,7 +320,7 @@ ul>li:first-child + li + li{
 width: 30%;
 }
 footer{
-  font-size: 1.2rem;
+  font-size: 12px;
 }
 table{
   clear: both; 
@@ -339,11 +336,11 @@ table{
   width:100%;
   clear: both;
   margin-top: 60vh;
-  padding:0.5rem;
+  padding:5px;
 }
 #stl1{
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 
